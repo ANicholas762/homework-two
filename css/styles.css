@@ -126,3 +126,140 @@
       color: #ffff; 
       border-color: #EE4367;  
   }
+  /* .wrapper {
+    width: 1280px;
+    height: 300px;
+  } */
+  .form-content {
+    width: 789px;
+    height: 90px;
+    margin: 0 auto;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    position: relative;
+    margin-top: 80px;
+    color: #FFD140;
+}
+.form-content h2 {
+    font-size: 15px;
+    font-family: PTSerifRegular;
+    font-weight: lighter;
+    color: #EE4367;
+    position: absolute;
+    top: 80px;
+}
+.form-content h1 {
+    position: absolute;
+    font-size: 10px;
+    font-family: serif;
+    color: #A8A8A8;
+    top: 100px;
+}
+.box-container {
+  position: relative;
+  width: 1280px;
+  height: 320px;
+  background-color: #540D6E;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.boxOne {
+  position: absolute;
+  width: 300px;
+  height: 124px;
+  display: flex;
+  justify-content: space-evenly;
+  top: 120px;
+}
+.datebox1 {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background-color: #EE4367;
+}
+.datebox1 h2 {
+  position: absolute;
+  font-size: 22px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  left: 16px;
+  top: 10px;
+  color: white;
+}
+.datebox1 h1 {
+  position: absolute;
+  font-size: 12px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: lighter;
+  left: 19px;
+  top: 34px;
+  color: white;
+}
+.txt1 h1 {
+  width: 140px;
+  height: 41px;
+  font-size: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: normal;
+  color: white;
+}
+.txt1 p {
+  width: 140px;
+  height: 78px;
+  font-size: 13px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: normal;
+  color: #EE4367;
+}
+.boxTwo {
+  position: absolute;
+  width: 300px;
+  height: 124px;
+  display: flex;
+  justify-content: space-evenly;
+  top: 120px;
+}
+.datebox2 {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background-color: #EE4367;
+}
+.datebox2 h2 {
+  position: absolute;
+  font-size: 22px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  left: 16px;
+  top: 10px;
+  color: white;
+}
+.datebox2 h1 {
+  position: absolute;
+  font-size: 12px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: lighter;
+  left: 19px;
+  top: 34px;
+  color: white;
+}
+.txt2 h1 {
+  width: 140px;
+  height: 41px;
+  font-size: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: normal;
+  color: white;
+}
+.txt2 p {
+  width: 140px;
+  height: 78px;
+  font-size: 13px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: normal;
+  color: #EE4367;
+}
