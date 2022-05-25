@@ -165,9 +165,22 @@
   margin: 0 auto;
   margin-top: 100px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
-.boxOne {
+.box-container h2{
+  position: absolute;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: lighter;
+  font-size: 25px;
+  color: white;
+  left: 50px;
+  top: 50px;
+  text-decoration-line: underline;
+}
+/* .box-container hr {
+  border-top: 1px solid white;
+} */
+.box1 {
   position: absolute;
   width: 300px;
   height: 124px;
@@ -189,6 +202,7 @@
   left: 16px;
   top: 10px;
   color: white;
+  text-decoration: none;
 }
 .datebox1 h1 {
   position: absolute;
@@ -215,13 +229,14 @@
   font-weight: normal;
   color: #EE4367;
 }
-.boxTwo {
+.box2 {
   position: absolute;
   width: 300px;
   height: 124px;
   display: flex;
   justify-content: space-evenly;
   top: 120px;
+  left: 240px;
 }
 .datebox2 {
   position: relative;
@@ -256,6 +271,153 @@
   color: white;
 }
 .txt2 p {
+  width: 140px;
+  height: 78px;
+  font-size: 13px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: normal;
+  color: #EE4367;
+}
+.box3 {
+  position: absolute;
+  width: 300px;
+  height: 124px;
+  display: flex;
+  justify-content: space-evenly;
+  top: 120px;
+  left: 480px;
+}
+.datebox3 {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background-color: #EE4367;
+}
+.datebox3 h2 {
+  position: absolute;
+  font-size: 22px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  left: 16px;
+  top: 10px;
+  color: white;
+}
+.datebox3 h1 {
+  position: absolute;
+  font-size: 12px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: lighter;
+  left: 19px;
+  top: 34px;
+  color: white;
+}
+.txt3 h1 {
+  width: 140px;
+  height: 41px;
+  font-size: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: normal;
+  color: white;
+}
+.txt3 p {
+  width: 140px;
+  height: 78px;
+  font-size: 13px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: normal;
+  color: #EE4367;
+}
+.box4 {
+  position: absolute;
+  width: 300px;
+  height: 124px;
+  display: flex;
+  justify-content: space-evenly;
+  top: 120px;
+  left: 720px;
+}
+.datebox4 {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background-color: #EE4367;
+}
+.datebox4 h2 {
+  position: absolute;
+  font-size: 22px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  left: 16px;
+  top: 10px;
+  color: white;
+}
+.datebox4 h1 {
+  position: absolute;
+  font-size: 12px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: lighter;
+  left: 19px;
+  top: 34px;
+  color: white;
+}
+.txt4 h1 {
+  width: 140px;
+  height: 41px;
+  font-size: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: normal;
+  color: white;
+}
+.txt4 p {
+  width: 140px;
+  height: 78px;
+  font-size: 13px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: normal;
+  color: #EE4367;
+}
+.box5 {
+  position: absolute;
+  width: 300px;
+  height: 124px;
+  display: flex;
+  justify-content: space-evenly;
+  top: 120px;
+  left: 980px;
+}
+.datebox5 {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background-color: #EE4367;
+}
+.datebox5 h2 {
+  position: absolute;
+  font-size: 22px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  left: 16px;
+  top: 10px;
+  color: white;
+}
+.datebox5 h1 {
+  position: absolute;
+  font-size: 12px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: lighter;
+  left: 19px;
+  top: 34px;
+  color: white;
+}
+.txt5 h1 {
+  width: 140px;
+  height: 41px;
+  font-size: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: normal;
+  color: white;
+}
+.txt5 p {
   width: 140px;
   height: 78px;
   font-size: 13px;
